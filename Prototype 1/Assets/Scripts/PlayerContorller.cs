@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerContorller : MonoBehaviour
 {
-    // private variables for our car
+    // private variables for our car 
     private float speed = 25.0f;
     private float turnSpeed = 75.0f;
     private float horizontalInput;
