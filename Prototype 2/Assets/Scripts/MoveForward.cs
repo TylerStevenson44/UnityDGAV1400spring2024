@@ -15,6 +15,7 @@ public class MoveForward : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // gives our prefabs some yeets
         transform.Translate(Vector3.forward * Time.deltaTime * speed);
     }
 }
