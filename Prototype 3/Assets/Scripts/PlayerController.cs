@@ -1,0 +1,34 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class PlayerController : MonoBehaviour
+{
+    private Rigidbody playerRb;
+    public float jumpForce = 10;
+    public float gravityModifier;
+    public bool isOnGround = true;
+    // Start is called before the first frame update
+    void Start()
+    {
+        playerRb = GetComponent<Rigidbody>();
+        Physics.gravity *= gravityModifier;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        // use spacebar for jump and checks to see if the player has jumped
+        if (Input.GetKeyDown(KeyCode.Space) && isOnGround) 
+        {
+            //apply a force in the y axis immediately when space is pressed
+            playerRb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+            isOnGround = false;
+        }
+    }
+    //onCollisionEnter method sets is on ground back to true when the player collider touches the ground again
+    private void OnCollisionEnter(Collision collision)
+    {
+        isOnGround = true;
+    }
+}
