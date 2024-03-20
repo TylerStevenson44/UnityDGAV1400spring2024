@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     public float jumpForce = 10;
     public float gravityModifier;
     public bool isOnGround = true;
+    public bool gameOver = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,9 +27,19 @@ public class PlayerController : MonoBehaviour
             isOnGround = false;
         }
     }
-    //onCollisionEnter method sets is on ground back to true when the player collider touches the ground again
+    //onCollisionEnter method sets is on ground back to true when the player collider touches the ground again preventing double jumps
     private void OnCollisionEnter(Collision collision)
     {
-        isOnGround = true;
+        
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            isOnGround = true;
+        }
+        // we can use this same collision detection method to detect if we got a game over as well as preventing the double jump
+        else if (collision.gameObject.CompareTag("Obstacle"))
+        {
+            gameOver = true;
+            Debug.Log("Game Over");
+        }
     }
 }
