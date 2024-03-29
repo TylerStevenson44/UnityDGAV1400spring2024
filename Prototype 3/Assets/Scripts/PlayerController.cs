@@ -37,6 +37,7 @@ public class PlayerController : MonoBehaviour
             //apply a force in the y axis immediately when space is pressed
             playerRb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             isOnGround = false;
+            //add our animations and sounds with the spacebar press
             playerAnim.SetTrigger("Jump_trig");
             dirtParticle.Stop();
             playerAudio.PlayOneShot(jumpSound, 1.0f);
@@ -58,6 +59,7 @@ public class PlayerController : MonoBehaviour
         {
             Debug.Log("Game Over");
             gameOver = true;
+            // add our death animation explosion and sounds 
             playerAnim.SetBool("Death_b", true);
             playerAnim.SetInteger("DeathType_int", 1);
             explosionParticle.Play();
