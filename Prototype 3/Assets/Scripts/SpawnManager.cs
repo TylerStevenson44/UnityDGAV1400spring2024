@@ -24,6 +24,7 @@ public class SpawnManager : MonoBehaviour
 
     void SpawnObstacle ()
     {
+        // if game over is false then we keep creating obstacle prefabs to jump over.
         if (playerControllerScript.gameOver == false)
         {
             Instantiate(obstaclePrefab, spawnPos, obstaclePrefab.transform.rotation);

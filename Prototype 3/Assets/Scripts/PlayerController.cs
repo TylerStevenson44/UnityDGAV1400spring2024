@@ -4,14 +4,17 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    //variables for calling rigidbodys animators and audio sources
     private Rigidbody playerRb;
-
     private Animator playerAnim;
     private AudioSource playerAudio;
+    // variables for particles
     public ParticleSystem explosionParticle;
     public ParticleSystem dirtParticle;
+    // variables for audio clips
     public AudioClip jumpSound;
     public AudioClip crashSound;
+    // variables for player controlling
     public float jumpForce = 10;
     public float gravityModifier;
     public bool isOnGround;
@@ -47,6 +50,7 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             isOnGround = true;
+            //plays our dirt particles when on ground
             dirtParticle.Play();
         }
         // we can use this same collision detection method to detect if we got a game over as well as preventing the double jump
