@@ -20,10 +20,11 @@ public class Target : MonoBehaviour
     {
         targetRb = GetComponent<Rigidbody>();
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+        //ref our game manager script.
 
+        //make our objects spawn randomly 
         targetRb.AddForce(RandomForce(), ForceMode.Impulse);
         targetRb.AddTorque(RandomTorque(), RandomTorque(), RandomTorque(), ForceMode.Impulse);
-
         transform.position = RandomSpawnPos();
     }
 
@@ -35,6 +36,7 @@ public class Target : MonoBehaviour
 
     private void OnMouseDown()
     {
+        //make an explosion appear when we click one of our objects and destroy it!
         if (gameManager.isGameActive)
         {
             Destroy(gameObject);
@@ -49,9 +51,12 @@ public class Target : MonoBehaviour
         Destroy(gameObject);
         if (!gameObject.CompareTag("Bad"))
             gameManager.GameOver();
-            
+            // only reset the game if an object that isnt tagged with "bad" hits the senseor
     }
 
+
+
+    // v these three methods are used for the code in the start method to be cleaner
     Vector3 RandomForce()
     {
         return Vector3.up * Random.Range(minSpeed, maxSpeed);
