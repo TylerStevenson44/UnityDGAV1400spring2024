@@ -13,6 +13,7 @@ public class PlayerControllerX : MonoBehaviour
     public GameObject powerupIndicator;
     public int powerUpDuration = 5;
     public ParticleSystem boostParticle;
+    
 
     private float normalStrength = 10; // how hard to hit enemy without powerup
     private float powerupStrength = 25; // how hard to hit enemy with powerup
@@ -21,6 +22,7 @@ public class PlayerControllerX : MonoBehaviour
     {
         playerRb = GetComponent<Rigidbody>();
         focalPoint = GameObject.Find("Focal Point");
+       
     }
 
     void Update()
