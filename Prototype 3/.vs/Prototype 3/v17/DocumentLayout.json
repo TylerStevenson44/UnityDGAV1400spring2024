@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F54D4F09-CE3B-6305-6007-C14992BF309F}|Assembly-CSharp.csproj|c:\\users\\foxke\\documents\\unity projects spring 2024\\unitydgav1400spring2024\\prototype 3\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F54D4F09-CE3B-6305-6007-C14992BF309F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F54D4F09-CE3B-6305-6007-C14992BF309F}|Assembly-CSharp.csproj|C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 3\\assets\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F54D4F09-CE3B-6305-6007-C14992BF309F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F54D4F09-CE3B-6305-6007-C14992BF309F}|Assembly-CSharp.csproj|C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 3\\assets\\scripts\\moveleft.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F54D4F09-CE3B-6305-6007-C14992BF309F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\moveleft.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F54D4F09-CE3B-6305-6007-C14992BF309F}|Assembly-CSharp.csproj|C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 3\\assets\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F54D4F09-CE3B-6305-6007-C14992BF309F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F54D4F09-CE3B-6305-6007-C14992BF309F}|Assembly-CSharp.csproj|c:\\users\\foxke\\documents\\unity projects spring 2024\\unitydgav1400spring2024\\prototype 3\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F54D4F09-CE3B-6305-6007-C14992BF309F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F54D4F09-CE3B-6305-6007-C14992BF309F}|Assembly-CSharp.csproj|C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 3\\assets\\scripts\\repeatbackground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 3\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
@@ -56,7 +56,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "SpawnManager.cs",
               "DocumentMoniker": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 3\\Assets\\Scripts\\SpawnManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SpawnManager.cs",
@@ -77,8 +77,7 @@
               "RelativeToolTip": "Assets\\Scripts\\RepeatBackground.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T16:51:19.009Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-20T16:51:19.009Z"
             }
           ]
         }

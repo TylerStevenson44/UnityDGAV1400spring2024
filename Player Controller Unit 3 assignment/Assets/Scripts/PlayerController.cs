@@ -10,6 +10,8 @@ public class PlayerController : MonoBehaviour
     //set our input floats for movement
     [SerializeField] private float verticalInput;
     [SerializeField] private float horizontalInput;
+    [SerializeField] private float verticalSpeed;
+    [SerializeField] private float horizontalSpeed;
     //make our rigidbody a variable
     private Rigidbody playerRb;
     //make our isJumping bool a variable
@@ -27,6 +29,11 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //attempt mouse camera movement.
+        float h = horizontalSpeed * Input.GetAxis("Mouse X");
+        float v = verticalSpeed * Input.GetAxis("Mouse Y");
+        transform.Rotate(Vector3.up, h * horizontalSpeed * Time.deltaTime);
+
         //assign our floats buttons 
         horizontalInput = Input.GetAxis("Horizontal");
         verticalInput = Input.GetAxis("Vertical");
@@ -41,6 +48,17 @@ public class PlayerController : MonoBehaviour
             playerRb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             //isJumping set to true to prevent a double jump
             isJumping = true;
+        }
+        //sprint on left shift hold
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            // mutiply movement speed by 2 when shift key is pressed
+            moveSpeed *= 2;
+        }
+        if  (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            //devide it by 2 again when its not pressed to return it to normal
+            moveSpeed /= 2;
         }
     }
     // use the onCollisionEnter method to detect collision with the floor
