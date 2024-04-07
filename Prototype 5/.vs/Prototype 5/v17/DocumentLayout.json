@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 5\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8CEA0EDF-4D3B-4721-E114-1968096EC446}|Assembly-CSharp.csproj|C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 5\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CEA0EDF-4D3B-4721-E114-1968096EC446}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8CEA0EDF-4D3B-4721-E114-1968096EC446}|Assembly-CSharp.csproj|c:\\users\\foxke\\documents\\unity projects spring 2024\\unitydgav1400spring2024\\prototype 5\\assets\\scripts\\difficultybutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CEA0EDF-4D3B-4721-E114-1968096EC446}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\difficultybutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEA0EDF-4D3B-4721-E114-1968096EC446}|Assembly-CSharp.csproj|c:\\users\\foxke\\documents\\unity projects spring 2024\\unitydgav1400spring2024\\prototype 5\\assets\\challenge 5\\scripts\\difficultybuttonx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CEA0EDF-4D3B-4721-E114-1968096EC446}|Assembly-CSharp.csproj|solutionrelative:assets\\challenge 5\\scripts\\difficultybuttonx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEA0EDF-4D3B-4721-E114-1968096EC446}|Assembly-CSharp.csproj|c:\\users\\foxke\\documents\\unity projects spring 2024\\unitydgav1400spring2024\\prototype 5\\assets\\challenge 5\\scripts\\gamemanagerx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CEA0EDF-4D3B-4721-E114-1968096EC446}|Assembly-CSharp.csproj|solutionrelative:assets\\challenge 5\\scripts\\gamemanagerx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CEA0EDF-4D3B-4721-E114-1968096EC446}|Assembly-CSharp.csproj|c:\\users\\foxke\\documents\\unity projects spring 2024\\unitydgav1400spring2024\\prototype 5\\assets\\challenge 5\\scripts\\targetx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CEA0EDF-4D3B-4721-E114-1968096EC446}|Assembly-CSharp.csproj|solutionrelative:assets\\challenge 5\\scripts\\targetx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8CEA0EDF-4D3B-4721-E114-1968096EC446}|Assembly-CSharp.csproj|C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 5\\assets\\scripts\\target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CEA0EDF-4D3B-4721-E114-1968096EC446}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CEA0EDF-4D3B-4721-E114-1968096EC446}|Assembly-CSharp.csproj|c:\\users\\foxke\\documents\\unity projects spring 2024\\unitydgav1400spring2024\\prototype 5\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CEA0EDF-4D3B-4721-E114-1968096EC446}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8CEA0EDF-4D3B-4721-E114-1968096EC446}|Assembly-CSharp.csproj|c:\\users\\foxke\\documents\\unity projects spring 2024\\unitydgav1400spring2024\\prototype 5\\assets\\challenge 5\\scripts\\destroyobjectx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CEA0EDF-4D3B-4721-E114-1968096EC446}|Assembly-CSharp.csproj|solutionrelative:assets\\challenge 5\\scripts\\destroyobjectx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,24 +38,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DifficultyButton.cs",
-              "DocumentMoniker": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 5\\Assets\\Scripts\\DifficultyButton.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DifficultyButton.cs",
-              "ToolTip": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 5\\Assets\\Scripts\\DifficultyButton.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DifficultyButton.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAswB0AAAAIAAAA",
+              "DocumentIndex": 2,
+              "Title": "DifficultyButtonX.cs",
+              "DocumentMoniker": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 5\\Assets\\Challenge 5\\Scripts\\DifficultyButtonX.cs",
+              "RelativeDocumentMoniker": "Assets\\Challenge 5\\Scripts\\DifficultyButtonX.cs",
+              "ToolTip": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 5\\Assets\\Challenge 5\\Scripts\\DifficultyButtonX.cs",
+              "RelativeToolTip": "Assets\\Challenge 5\\Scripts\\DifficultyButtonX.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T05:56:17.246Z",
+              "WhenOpened": "2024-04-07T01:28:02.01Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "GameManagerX.cs",
+              "DocumentMoniker": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 5\\Assets\\Challenge 5\\Scripts\\GameManagerX.cs",
+              "RelativeDocumentMoniker": "Assets\\Challenge 5\\Scripts\\GameManagerX.cs",
+              "ToolTip": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 5\\Assets\\Challenge 5\\Scripts\\GameManagerX.cs",
+              "RelativeToolTip": "Assets\\Challenge 5\\Scripts\\GameManagerX.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwAwAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T01:16:55.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 5\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
@@ -53,6 +82,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "DifficultyButton.cs",
+              "DocumentMoniker": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 5\\Assets\\Scripts\\DifficultyButton.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DifficultyButton.cs",
+              "ToolTip": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 5\\Assets\\Scripts\\DifficultyButton.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DifficultyButton.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T05:56:17.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TargetX.cs",
+              "DocumentMoniker": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 5\\Assets\\Challenge 5\\Scripts\\TargetX.cs",
+              "RelativeDocumentMoniker": "Assets\\Challenge 5\\Scripts\\TargetX.cs",
+              "ToolTip": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 5\\Assets\\Challenge 5\\Scripts\\TargetX.cs",
+              "RelativeToolTip": "Assets\\Challenge 5\\Scripts\\TargetX.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBgAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T01:16:56.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DestroyObjectX.cs",
+              "DocumentMoniker": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 5\\Assets\\Challenge 5\\Scripts\\DestroyObjectX.cs",
+              "RelativeDocumentMoniker": "Assets\\Challenge 5\\Scripts\\DestroyObjectX.cs",
+              "ToolTip": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 5\\Assets\\Challenge 5\\Scripts\\DestroyObjectX.cs",
+              "RelativeToolTip": "Assets\\Challenge 5\\Scripts\\DestroyObjectX.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T01:16:22.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Target.cs",
               "DocumentMoniker": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 5\\Assets\\Scripts\\Target.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Target.cs",

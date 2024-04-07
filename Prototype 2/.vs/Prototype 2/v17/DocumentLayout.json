@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 2\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{26005786-6F87-D14A-9974-E2C6B23063D5}|Assembly-CSharp.csproj|c:\\users\\foxke\\documents\\unity projects spring 2024\\unitydgav1400spring2024\\prototype 2\\assets\\scripts\\objectpooler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26005786-6F87-D14A-9974-E2C6B23063D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectpooler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ObjectPooler.cs",
+              "DocumentMoniker": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 2\\Assets\\Scripts\\ObjectPooler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ObjectPooler.cs",
+              "ToolTip": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 2\\Assets\\Scripts\\ObjectPooler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ObjectPooler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T02:51:23.036Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

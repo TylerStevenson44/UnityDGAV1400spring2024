@@ -5,19 +5,13 @@ using UnityEngine;
 public class PlayerContorller : MonoBehaviour
 {
     // private variables for our car 
-    private float speed = 25.0f;
-    private float turnSpeed = 75.0f;
+    [SerializeField] private float speed = 25.0f;
+    [SerializeField] private float turnSpeed = 75.0f;
     private float horizontalInput;
     private float forwardInput;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         // these are where we get the player input from input manager in unity
         horizontalInput = Input.GetAxis("Horizontal");
