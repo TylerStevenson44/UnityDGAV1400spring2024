@@ -6,36 +6,27 @@ public class PlayerController : MonoBehaviour
 {
     //serialize field for access to edit private varables within inspector
     [SerializeField] private float moveSpeed = 5f;
-    [SerializeField] private float jumpForce = 5f;
-    [SerializeField] private float gravity = 9.81f;
-
-    private CharacterController controller;
-    public Rigidbody playerRb;
-    private Vector3 moveDirection;
-    private bool isJumping;
-
-
-
+    [SerializeField] private float jumpForce = 6.5f;
     //set our input floats for movement
     [SerializeField] private float verticalInput;
     [SerializeField] private float horizontalInput;
+    //make our rigidbody a variable
+    private Rigidbody playerRb;
+    //make our isJumping bool a variable
+    private bool isJumping;
+
 
 
     // Start is called before the first frame update
     void Start()
     {
-        //we get our character controller component 
-        controller = GetComponent<CharacterController>();
         // use a rigidbody for gravity 
         playerRb = GetComponent<Rigidbody>();
-
     }
 
     // Update is called once per frame
     void Update()
     {
-
-
         //assign our floats buttons 
         horizontalInput = Input.GetAxis("Horizontal");
         verticalInput = Input.GetAxis("Vertical");
@@ -44,16 +35,19 @@ public class PlayerController : MonoBehaviour
         transform.Translate(Vector3.forward * Time.deltaTime * moveSpeed * verticalInput);
         transform.Translate(Vector3.right * Time.deltaTime * moveSpeed * horizontalInput);
 
-        //make our character jump with space
+        //make our character jump with space and if isJumping is fase
         if (Input.GetKeyDown(KeyCode.Space) && !isJumping)
         {
             playerRb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+            //isJumping set to true to prevent a double jump
             isJumping = true;
         }
     }
+    // use the onCollisionEnter method to detect collision with the floor
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.GetComponent("Plane"))
+        //if we collide with a game object (floor or wall) our is jumping bool gets set back to false
+        if (collision.gameObject)
         {
             isJumping = false;
         }
