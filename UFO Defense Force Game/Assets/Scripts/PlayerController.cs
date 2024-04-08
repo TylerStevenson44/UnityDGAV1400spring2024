@@ -9,12 +9,13 @@ public class PlayerController : MonoBehaviour
     public float speed;
 
     public float xRange;
+    public int pickups;
 
     public Transform blaster;
 
     public GameObject laserBolt;
 
-   
+
     // Update is called once per frame
     void Update()
     {
@@ -42,11 +43,17 @@ public class PlayerController : MonoBehaviour
             Instantiate(laserBolt, blaster.transform.position, laserBolt.transform.rotation);
         }
 
-        
+
     }
     // delete any object with a trigger that hits the player
     private void OnTriggerEnter(Collider other)
     {
-        Destroy(other.gameObject);
+        // if the other game object is tagged "Pickup" then it gets destroyed and 1 is added to pickups variable and logged in the console.
+        if (other.CompareTag("Pickup"))
+        {
+            Destroy(other.gameObject);
+            pickups++;
+            Debug.Log("You have " + pickups + " Powerups!");
+        }
     }
 }
