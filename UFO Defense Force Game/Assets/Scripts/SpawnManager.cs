@@ -15,6 +15,7 @@ public class SpawnManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //spawn the pickup repeatedly when our game starts.
         InvokeRepeating("SpawnPickup", startDelay, spawnInterval);
     }
 
