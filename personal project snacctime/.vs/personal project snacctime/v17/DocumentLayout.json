@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\personal project snacctime\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F027972F-95EB-EC3B-636D-004D9B6ED4EF}|Assembly-CSharp.csproj|c:\\users\\foxke\\documents\\unity projects spring 2024\\unitydgav1400spring2024\\personal project snacctime\\assets\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F027972F-95EB-EC3B-636D-004D9B6ED4EF}|Assembly-CSharp.csproj|c:\\users\\foxke\\documents\\unity projects spring 2024\\unitydgav1400spring2024\\personal project snacctime\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F027972F-95EB-EC3B-636D-004D9B6ED4EF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F027972F-95EB-EC3B-636D-004D9B6ED4EF}|Assembly-CSharp.csproj|C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\personal project snacctime\\assets\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F027972F-95EB-EC3B-636D-004D9B6ED4EF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -19,6 +23,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\personal project snacctime\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\personal project snacctime\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAYwEsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T22:59:39.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "SpawnManager.cs",
               "DocumentMoniker": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\personal project snacctime\\Assets\\Scripts\\SpawnManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SpawnManager.cs",
@@ -26,8 +43,7 @@
               "RelativeToolTip": "Assets\\Scripts\\SpawnManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T01:20:15.023Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-08T01:20:15.023Z"
             }
           ]
         }

@@ -28,7 +28,7 @@ public class SpawnManager : MonoBehaviour
     void SpawnPickup()
     {
         //spawn our pickup within the range we determine
-        Vector3 spawnPos = new Vector3(Random.Range(-spawnRangeX, spawnRangeX), spawnPosY, spawnPosZ);
+        Vector3 spawnPos = new Vector3(Random.Range(-spawnRangeX, spawnRangeX), 0, spawnPosZ);
         Instantiate(pickup, spawnPos, pickup.transform.rotation);
 
 

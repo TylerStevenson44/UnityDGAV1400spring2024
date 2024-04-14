@@ -3,11 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 4\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{53F2696F-91F9-D403-3CD8-B368D375157F}|Assembly-CSharp.csproj|c:\\users\\foxke\\documents\\unity projects spring 2024\\unitydgav1400spring2024\\prototype 4\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53F2696F-91F9-D403-3CD8-B368D375157F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53F2696F-91F9-D403-3CD8-B368D375157F}|Assembly-CSharp.csproj|C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 4\\assets\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53F2696F-91F9-D403-3CD8-B368D375157F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{53F2696F-91F9-D403-3CD8-B368D375157F}|Assembly-CSharp.csproj|C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 4\\assets\\scripts\\rotatecamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{53F2696F-91F9-D403-3CD8-B368D375157F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rotatecamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{53F2696F-91F9-D403-3CD8-B368D375157F}|Assembly-CSharp.csproj|c:\\users\\foxke\\documents\\unity projects spring 2024\\unitydgav1400spring2024\\prototype 4\\assets\\challenge 4\\scripts\\playercontrollerx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{53F2696F-91F9-D403-3CD8-B368D375157F}|Assembly-CSharp.csproj|C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 4\\assets\\challenge 4\\scripts\\playercontrollerx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{53F2696F-91F9-D403-3CD8-B368D375157F}|Assembly-CSharp.csproj|solutionrelative:assets\\challenge 4\\scripts\\playercontrollerx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -19,16 +27,8 @@
       "RelativeMoniker": "D:0:0:{53F2696F-91F9-D403-3CD8-B368D375157F}|Assembly-CSharp.csproj|solutionrelative:assets\\challenge 4\\scripts\\enemyx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{53F2696F-91F9-D403-3CD8-B368D375157F}|Assembly-CSharp.csproj|C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 4\\assets\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53F2696F-91F9-D403-3CD8-B368D375157F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{53F2696F-91F9-D403-3CD8-B368D375157F}|Assembly-CSharp.csproj|C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 4\\assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{53F2696F-91F9-D403-3CD8-B368D375157F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{53F2696F-91F9-D403-3CD8-B368D375157F}|Assembly-CSharp.csproj|C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 4\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53F2696F-91F9-D403-3CD8-B368D375157F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 5\\Assets\\Scripts\\Target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -41,24 +41,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PlayerControllerX.cs",
-              "DocumentMoniker": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 4\\Assets\\Challenge 4\\Scripts\\PlayerControllerX.cs",
-              "RelativeDocumentMoniker": "Assets\\Challenge 4\\Scripts\\PlayerControllerX.cs",
-              "ToolTip": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 4\\Assets\\Challenge 4\\Scripts\\PlayerControllerX.cs",
-              "RelativeToolTip": "Assets\\Challenge 4\\Scripts\\PlayerControllerX.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAwAwAAAAnAAAA",
+              "DocumentIndex": 0,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 4\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 4\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwCIAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T06:40:08.764Z",
+              "WhenOpened": "2024-03-29T23:33:15.393Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "EnemyX.cs",
               "DocumentMoniker": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 4\\Assets\\Challenge 4\\Scripts\\EnemyX.cs",
               "RelativeDocumentMoniker": "Assets\\Challenge 4\\Scripts\\EnemyX.cs",
@@ -70,7 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "RotateCamera.cs",
               "DocumentMoniker": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 4\\Assets\\Scripts\\RotateCamera.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RotateCamera.cs",
@@ -78,12 +78,11 @@
               "RelativeToolTip": "Assets\\Scripts\\RotateCamera.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T23:26:34.154Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-29T23:26:34.154Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "SpawnManagerX.cs",
               "DocumentMoniker": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 4\\Assets\\Challenge 4\\Scripts\\SpawnManagerX.cs",
               "RelativeDocumentMoniker": "Assets\\Challenge 4\\Scripts\\SpawnManagerX.cs",
@@ -107,19 +106,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "SpawnManager.cs",
               "DocumentMoniker": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 4\\Assets\\Scripts\\SpawnManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SpawnManager.cs",
               "ToolTip": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 4\\Assets\\Scripts\\SpawnManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\SpawnManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAABCAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwC8AAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-30T00:28:24.525Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Enemy.cs",
               "DocumentMoniker": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 4\\Assets\\Scripts\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy.cs",
@@ -131,15 +130,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 4\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
-              "ToolTip": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 4\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwDsAAABcAAAA",
+              "DocumentIndex": 3,
+              "Title": "PlayerControllerX.cs",
+              "DocumentMoniker": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 4\\Assets\\Challenge 4\\Scripts\\PlayerControllerX.cs",
+              "RelativeDocumentMoniker": "Assets\\Challenge 4\\Scripts\\PlayerControllerX.cs",
+              "ToolTip": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\Prototype 4\\Assets\\Challenge 4\\Scripts\\PlayerControllerX.cs",
+              "RelativeToolTip": "Assets\\Challenge 4\\Scripts\\PlayerControllerX.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwAwAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T23:33:15.393Z"
+              "WhenOpened": "2024-04-05T06:40:08.764Z"
             }
           ]
         }

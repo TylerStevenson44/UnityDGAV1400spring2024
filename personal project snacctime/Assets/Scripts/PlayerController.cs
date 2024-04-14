@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class PlayerController : MonoBehaviour
 {
@@ -11,6 +13,8 @@ public class PlayerController : MonoBehaviour
     public float yRange = 10.0f;
     public float jumpForce = 10.0f;
     public float gravityModifier;
+    public int cookieCount = 0;
+    public TextMeshProUGUI cookieText;
 
     // Start is called before the first frame update
     void Start()
@@ -54,5 +58,19 @@ public class PlayerController : MonoBehaviour
             Destroy(gameObject);
             Debug.Log("too far up");
         }
+    }
+    public void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Cookie"))
+        {
+            cookieCount++;
+        }
+    }
+    public void UpdateScore(int scoreToAdd)
+    {
+        //add up our score while we play!
+        cookieCount += scoreToAdd;
+        cookieText.text = "Score: " + cookieCount;
+
     }
 }
