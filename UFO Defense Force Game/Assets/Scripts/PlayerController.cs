@@ -36,8 +36,8 @@ public class PlayerController : MonoBehaviour
         {
             transform.position = new Vector3(xRange, transform.position.y, transform.position.z);
         }
-        // if space bar is pressed fire a laser
-        if (Input.GetKeyDown(KeyCode.Space))
+        // if space bar is pressed fire a laser and the game is still moving
+        if (Input.GetKeyDown(KeyCode.Space) && Time.timeScale > 0)
         {
             // create a laser bolt at the blasters position and keep its rotation
             Instantiate(laserBolt, blaster.transform.position, laserBolt.transform.rotation);

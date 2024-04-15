@@ -33,3 +33,4 @@ public class EnemySpawnManager : MonoBehaviour
         Instantiate(ufoPrefabs[ufoIndex], spawnPos, ufoPrefabs[ufoIndex].transform.rotation);
     }
 }
+ 
