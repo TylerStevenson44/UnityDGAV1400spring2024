@@ -7,11 +7,13 @@ public class DestroyOutOfBounds : MonoBehaviour
 {
     public float topBounds = 60.0f;
     public float bottomBounds = -50.0f;
-    // Start is called before the first frame update
-    void Awake()
+    public GameManager gameManager;
+
+    void Start()
     {
-        Time.timeScale = 1.0f;
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
+
 
     // Update is called once per frame
     void Update()
@@ -25,13 +27,12 @@ public class DestroyOutOfBounds : MonoBehaviour
         if (transform.position.z < bottomBounds && !gameObject.CompareTag("Pickup"))
         {
             Destroy(gameObject);
-            Time.timeScale = 0;
-            Debug.Log("Game Over!");
+            gameManager.isGameOver = true;
         }
         if (transform.position.z < bottomBounds && gameObject.CompareTag("Pickup"))
         {
             Destroy(gameObject);
         }
     }
-   
+
 }
