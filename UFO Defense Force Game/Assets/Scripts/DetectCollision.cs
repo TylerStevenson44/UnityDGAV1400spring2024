@@ -4,7 +4,13 @@ using UnityEngine;
 
 public class DetectCollision : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider other)
+    public ScoreManager scoreManager; // reference to the score manager
+
+    void Start()
+    {
+        
+    }
+    void OnTriggerEnter(Collider other)
     {
         // dont destroy the player when an enemy touches them 
         if (!other.gameObject.CompareTag("Player"))
