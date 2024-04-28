@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour
 {
     public bool isGameOver;
 
+    public PlayerController playerController;
     public GameObject gameOverText;
     public GameObject mainMenuButton;
     void Awake()
@@ -19,6 +20,7 @@ public class GameManager : MonoBehaviour
     {
         gameOverText = GameObject.Find("GameOverText");
         mainMenuButton = GameObject.Find("MainMenuButton");
+        playerController = GameObject.Find("Player").GetComponent<PlayerController>();
     }
 
     // Update is called once per frame
@@ -39,5 +41,6 @@ public class GameManager : MonoBehaviour
         gameOverText.gameObject.SetActive(true); // reveals the Game over  text 
         mainMenuButton.gameObject.SetActive(true);
         Time.timeScale = 0; // set time to 0 to freeze the game
+        playerController.GameOverSound(); // play the game over sound
     }
 }

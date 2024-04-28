@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\UFO Defense Force Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A01721A7-F43A-936A-262A-38007F4E52C2}|Assembly-CSharp.csproj|C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\UFO Defense Force Game\\assets\\scripts\\detectcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A01721A7-F43A-936A-262A-38007F4E52C2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\detectcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A01721A7-F43A-936A-262A-38007F4E52C2}|Assembly-CSharp.csproj|c:\\users\\foxke\\documents\\unity projects spring 2024\\unitydgav1400spring2024\\ufo defense force game\\assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A01721A7-F43A-936A-262A-38007F4E52C2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A01721A7-F43A-936A-262A-38007F4E52C2}|Assembly-CSharp.csproj|c:\\users\\foxke\\documents\\unity projects spring 2024\\unitydgav1400spring2024\\ufo defense force game\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A01721A7-F43A-936A-262A-38007F4E52C2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A01721A7-F43A-936A-262A-38007F4E52C2}|Assembly-CSharp.csproj|c:\\users\\foxke\\documents\\unity projects spring 2024\\unitydgav1400spring2024\\ufo defense force game\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A01721A7-F43A-936A-262A-38007F4E52C2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A01721A7-F43A-936A-262A-38007F4E52C2}|Assembly-CSharp.csproj|C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\UFO Defense Force Game\\assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A01721A7-F43A-936A-262A-38007F4E52C2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A01721A7-F43A-936A-262A-38007F4E52C2}|Assembly-CSharp.csproj|C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\UFO Defense Force Game\\assets\\scripts\\destroyoutofbounds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A01721A7-F43A-936A-262A-38007F4E52C2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\destroyoutofbounds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A01721A7-F43A-936A-262A-38007F4E52C2}|Assembly-CSharp.csproj|C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\UFO Defense Force Game\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A01721A7-F43A-936A-262A-38007F4E52C2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A01721A7-F43A-936A-262A-38007F4E52C2}|Assembly-CSharp.csproj|C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\UFO Defense Force Game\\assets\\scripts\\enemyspawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A01721A7-F43A-936A-262A-38007F4E52C2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyspawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01721A7-F43A-936A-262A-38007F4E52C2}|Assembly-CSharp.csproj|C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\UFO Defense Force Game\\assets\\scripts\\destroyoutofbounds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A01721A7-F43A-936A-262A-38007F4E52C2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\destroyoutofbounds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01721A7-F43A-936A-262A-38007F4E52C2}|Assembly-CSharp.csproj|c:\\users\\foxke\\documents\\unity projects spring 2024\\unitydgav1400spring2024\\ufo defense force game\\assets\\scripts\\detectcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A01721A7-F43A-936A-262A-38007F4E52C2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\detectcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A01721A7-F43A-936A-262A-38007F4E52C2}|Assembly-CSharp.csproj|C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\UFO Defense Force Game\\assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A01721A7-F43A-936A-262A-38007F4E52C2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A01721A7-F43A-936A-262A-38007F4E52C2}|Assembly-CSharp.csproj|C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\UFO Defense Force Game\\assets\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,32 +46,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ScoreManager.cs",
-              "DocumentMoniker": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\UFO Defense Force Game\\Assets\\Scripts\\ScoreManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ScoreManager.cs",
-              "ToolTip": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\UFO Defense Force Game\\Assets\\Scripts\\ScoreManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ScoreManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
+              "DocumentIndex": 0,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\UFO Defense Force Game\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\UFO Defense Force Game\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T01:41:29.677Z",
+              "WhenOpened": "2024-04-26T02:19:40.574Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainMenu.cs",
-              "DocumentMoniker": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\UFO Defense Force Game\\Assets\\Scripts\\MainMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenu.cs",
-              "ToolTip": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\UFO Defense Force Game\\Assets\\Scripts\\MainMenu.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MainMenu.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T00:55:39.245Z"
             },
             {
               "$type": "Document",
@@ -77,13 +69,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\DestroyOutOfBounds.cs",
               "ToolTip": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\UFO Defense Force Game\\Assets\\Scripts\\DestroyOutOfBounds.cs",
               "RelativeToolTip": "Assets\\Scripts\\DestroyOutOfBounds.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T00:34:11.858Z"
+              "WhenOpened": "2024-04-08T00:34:11.858Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "DetectCollision.cs",
               "DocumentMoniker": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\UFO Defense Force Game\\Assets\\Scripts\\DetectCollision.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DetectCollision.cs",
@@ -96,7 +89,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\UFO Defense Force Game\\Assets\\Scripts\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenu.cs",
+              "ToolTip": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\UFO Defense Force Game\\Assets\\Scripts\\MainMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainMenu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T00:55:39.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "EnemySpawnManager.cs",
               "DocumentMoniker": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\UFO Defense Force Game\\Assets\\Scripts\\EnemySpawnManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemySpawnManager.cs",
@@ -104,11 +110,38 @@
               "RelativeToolTip": "Assets\\Scripts\\EnemySpawnManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T00:24:12.136Z"
+              "WhenOpened": "2024-04-14T00:24:12.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\UFO Defense Force Game\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\UFO Defense Force Game\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T23:17:55.02Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "ScoreManager.cs",
+              "DocumentMoniker": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\UFO Defense Force Game\\Assets\\Scripts\\ScoreManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScoreManager.cs",
+              "ToolTip": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\UFO Defense Force Game\\Assets\\Scripts\\ScoreManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScoreManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T01:41:29.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "SpawnManager.cs",
               "DocumentMoniker": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\UFO Defense Force Game\\Assets\\Scripts\\SpawnManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SpawnManager.cs",
@@ -120,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "MoveForward.cs",
               "DocumentMoniker": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\UFO Defense Force Game\\Assets\\Scripts\\MoveForward.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MoveForward.cs",
@@ -129,19 +162,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-08T00:05:40.996Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\UFO Defense Force Game\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
-              "ToolTip": "C:\\Users\\foxke\\Documents\\Unity Projects Spring 2024\\UnityDGAV1400spring2024\\UFO Defense Force Game\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T23:17:55.02Z",
-              "EditorCaption": ""
             }
           ]
         }

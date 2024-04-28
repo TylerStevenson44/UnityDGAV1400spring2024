@@ -5,16 +5,29 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    private AudioSource playerAudio;
+
     public float horizontalInput;
     public float speed;
 
     public float xRange;
     public int pickups;
 
+    public AudioClip blasterSound;
+    public AudioClip explosionSound;
+    public AudioClip pickupSound;
+    public AudioClip gameOverSound;
+    
+
     public Transform blaster;
 
     public GameObject laserBolt;
 
+    void Start()
+    {
+        playerAudio = GetComponent<AudioSource>();
+
+    }
 
     // Update is called once per frame
     void Update()
@@ -41,6 +54,7 @@ public class PlayerController : MonoBehaviour
         {
             // create a laser bolt at the blasters position and keep its rotation
             Instantiate(laserBolt, blaster.transform.position, laserBolt.transform.rotation);
+            playerAudio.PlayOneShot(blasterSound, 1.0f);
         }
 
 
@@ -54,6 +68,15 @@ public class PlayerController : MonoBehaviour
             Destroy(other.gameObject);
             pickups++;
             Debug.Log("You have " + pickups + " Powerups!");
+            playerAudio.PlayOneShot(pickupSound, 1.0f);
         }
+    }
+    public void Explosion()
+    {
+        playerAudio.PlayOneShot(explosionSound, 1.0f);// sound for explosions when enemies are destroyed
+    }
+    public void GameOverSound()
+    {
+        playerAudio.PlayOneShot(gameOverSound, 1.0f);// sound for when you lose the game
     }
 }
